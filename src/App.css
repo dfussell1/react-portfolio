@@ -55,6 +55,24 @@ body {
   border: solid thick black;
 }
 
+.resume-header {
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.resume-link {
+  margin-left: 5%;
+}
+
+.proficiencies-header {
+  text-decoration: underline;
+}
+
+.proficiencies-list {
+  line-height: 200%;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
