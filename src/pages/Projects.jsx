@@ -1,22 +1,47 @@
+import careerCache from '../assets/career-cache.png';
+import eeriePapers from '../assets/Eerie-Papers.png';
+import gameCalender from '../assets/game-release-calendar.png';
+import workdayPlanner from '../assets/workday-planner1.png';
+import weatherDashboard from '../assets/weather-dashboard.png';
+import jsQuiz from '../assets/jsquiz.png';
+
 export default function Projects() {
     return (
         <div>
-            <h1>Projects Page</h1>
-                <p>
-                    Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-                    Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-                    dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-                    sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-                    sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-                    vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-                    libero. Class aptent taciti sociosqu ad litora torquent per conubia
-                    nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-                    lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                    Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-                    in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-                    bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-                    est ligula suscipit velit, sed bibendum turpis dui in sapien.
-                </p>
+            <h1 className="projects-header">My Projects:</h1>
+
+            <div className="projects-content">
+                <div className='project-card'>
+                    <a href="https://eerie-papers-08c108f5d3a3.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <img src={eeriePapers} alt="Picture of Eerie Papers Project" width={500} height={300}/>
+                    </a>
+                </div>
+                <div className='project-card'>
+                    <a href="https://career-cache.onrender.com/" target="_blank" rel="noopener noreferrer">
+                    <img src={careerCache} alt="Picture of Career Cache Project" width={500} height={300}/>
+                    </a>
+                </div>
+                <div className='project-card'>
+                    <a href="https://iambryantran.github.io/game-release-calendar/" target="_blank" rel="noopener noreferrer">
+                    <img src={gameCalender} alt="Picture of Game Release Calendar Project" width={500} height={300}/>
+                    </a>
+                </div>
+                <div className='project-card'>
+                    <a href="https://dfussell1.github.io/workday-planner/" target="_blank" rel="noopener noreferrer">
+                    <img src={workdayPlanner} alt="Picture of Workday Planner Project" width={500} height={300}/>
+                    </a>
+                </div>
+                <div className='project-card'>
+                    <a href="https://dfussell1.github.io/weather-dashboard/" target="_blank" rel="noopener noreferrer">
+                    <img src={weatherDashboard} alt="Picture of Weather Dashboard Project" width={500} height={300}/>
+                    </a>
+                </div>
+                <div className='project-card'>
+                    <a href="https://dfussell1.github.io/challenge-four-coding-quiz/" target="_blank" rel="noopener noreferrer">
+                    <img src={jsQuiz} alt="Picture of JavaScript Quiz Project" width={500} height={300}/>
+                    </a>
+                </div>
+            </div>
         </div>
     );
 }

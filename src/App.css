@@ -41,6 +41,28 @@ body {
   font-size: large;
   font-family: sans-serif;
   line-height: 200%;
+  height: 35vh;
+}
+
+.projects-header {
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 75vh;
+  margin-bottom: 5%;
+}
+
+.project-card {
+  border: 10px solid lightblue;
+  border-radius: 10px;
+  margin: 5px;
 }
 
 .contact-me-header {
@@ -61,12 +83,12 @@ body {
   margin-bottom: 2.5%;
 }
 
-.resume-link {
-  margin-left: 5%;
+.resume-content {
+  height: 55vh;
 }
 
-.proficiencies-header {
-  text-decoration: underline;
+.resume-link {
+  margin-left: 5%;
 }
 
 .proficiencies-list {
@@ -74,7 +96,7 @@ body {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   height: 100px;
   width: 100%;
