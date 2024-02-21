@@ -4,35 +4,35 @@ export default function NavBar() {
     const currentPage = useLocation().pathname;
 
     return (
-        <ul className='nav nav-tabs'>
-            <li className='nav-item'>
+        <ul className='navigation'>
+            <li className='about-me'>
                 <Link 
                     to='/'
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/' ? 'active' : 'nav-link'}
                 >
                     About Me
                 </Link>
             </li>
-            <li className='nav-item'>
+            <li className='projects'>
                 <Link 
                     to='/projects'
-                    className={currentPage === '/projects' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/projects' ? 'active' : 'nav-link'}
                 >
                     Projects
                 </Link>
             </li>
-            <li className='nav-item'>
+            <li className='contact-me'>
                 <Link 
                     to='/contact-me'
-                    className={currentPage === '/contact-me' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/contact-me' ? 'active' : 'nav-link'}
                 >
                     Contact Me
                 </Link>
             </li>
-            <li className='nav-item'>
+            <li className='resume'>
                 <Link 
                     to='/resume'
-                    className={currentPage === '/resume' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/resume' ? 'active' : 'nav-link'}
                 >
                     Resume
                 </Link>

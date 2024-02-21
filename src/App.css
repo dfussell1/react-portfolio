@@ -1,6 +1,60 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.header {
+  padding: 2.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 150px;
+  background-image: linear-gradient(to bottom right, lightblue, white, lightblue, white, lightblue);
+  color: rgb(0, 123, 255);
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+  list-style-type: none;
+  font-size: x-large;
+  color: rgb(0, 123, 255);
+}
+
+.nav-
+
+body {
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+.about-me-header {
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.profile-icon {
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.about-me-body {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: large;
+  font-family: sans-serif;
+  line-height: 200%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none; 
 }
