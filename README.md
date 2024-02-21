@@ -12,11 +12,14 @@
   - [Tests](#tests)
   - [License](#license)
   - [Questions](#questions)
+  - [Screenshots](#screenshots)
   - [Deployed App](#deployed-app)
 
   ## Installation 
   To install any necessary dependencies, run "npm i"
+
   To build the application using Vite, run "npm run build"
+  
   To start the application, run "npm run start"
 
   ## Usage 
@@ -38,5 +41,14 @@
 
   For any questions or concerns regarding this repository or my work, please reach out to me at daltonfussell1@gmail.com
 
+  ## Screenshots
+
+  ![About Me Page of Portfolio](./src/assets/about-me-page.png)
+  ![Projects Page of Portfolio](./src/assets/projects-page.png)
+  ![Contact Me Page of Portfolio](./src/assets/contact-me-page.png)
+  ![Resume Page of Portfolio](./src/assets/resume-page.png)
+
   ## Deployed App
-  
+  https://65d584a68875064e0ad4257c--radiant-pudding-d94d24.netlify.app/
+
+  For some reason, the deployed app does not render the projects page nor the nav bar items correctly. This will be researched and fixed. 
